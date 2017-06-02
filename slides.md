@@ -128,7 +128,7 @@ $ ls -l ~/.ssh/codeborne-active* | awk '{print $1, $9}'
 
 ----
 
-#### Verify edge cases
+#### Check edge cases
 
 ```
 public class AdminController {
