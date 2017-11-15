@@ -315,7 +315,7 @@ administrative privileges.
 
 ---
 
-<img src="/images/seen-cat.jpg", width="750" alt="seen cat">
+![seen-cat](/images/seen-cat.jpg)
 
 ----
 
