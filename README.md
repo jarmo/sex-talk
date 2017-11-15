@@ -2,9 +2,7 @@
 
 ### WTF is that?
 
-Note:
-Here's a short talk about everyday software security I gave at [@codeborne](https://github.com/codeborne).
-
+Note: Here's a short talk about everyday software security I gave at [@codeborne](https://github.com/codeborne).
 Notes are here for people who didn't see that talk.
 
 ---
