@@ -4,11 +4,11 @@
 
 ---
 
-![magic](https://i.imgur.com/iZcUNxH.gif)
+![magic](/images/magic.gif)
 
 ---
 
-![noob](http://i0.kym-cdn.com/photos/images/facebook/000/149/678/131091292545.jpg)
+![noob](/images/n00b.jpg)
 
 ---
 
@@ -64,7 +64,8 @@ Always think from a perspective of an attacker
 
 ----
 
-<img src="https://blog.codinghorror.com/content/images/2017/03/incorrect-password.jpg">
+
+![incorrect-password](/images/incorrect-password.jpg)
 
 ----
 
@@ -130,7 +131,7 @@ $ ls -l ~/.ssh/codeborne-active* | awk '{print $1, $9}'
 
 #### Check edge cases
 
-```
+```java
 public class AdminController {
   public Result index() {
     if (!isAdmin()) return Results.forbidden();
@@ -220,7 +221,7 @@ application.secret="f4f7edabc88b0de0b15bec67f2ed6b72ce4"
 
 ---
 
-<img src="http://i.imgur.com/I5oai.jpg" width="750">
+<img src="/images/seen-cat.jpg", width="750" alt="seen cat">
 
 ----
 
@@ -256,7 +257,7 @@ application.secret="f4f7edabc88b0de0b15bec67f2ed6b72ce4"
 
 ----
 
-<img src="https://stash.jarmopertman.com/orly.gif" height="550">
+![orly](/images/orly.gif)
 
 ----
 
@@ -264,7 +265,7 @@ application.secret="f4f7edabc88b0de0b15bec67f2ed6b72ce4"
 
 ----
 
-<img src="http://www.quickmeme.com/img/c5/c5d5b517c9a526eb953dd4fd121667040b3512959c8de616ec8f2f01190d3540.jpg">
+![pretty-please](/images/pretty-please.jpg)
 
 ---
 
