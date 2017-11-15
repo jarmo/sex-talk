@@ -79,7 +79,7 @@ Always think from a perspective of an attacker
 
 #### XSS - not to be confused with CSS
 
-```
+```html
 <div>
   Hello, <%= name %>
 </div>
@@ -89,7 +89,7 @@ Always think from a perspective of an attacker
 
 #### HTTP methods - GET, POST, DELETE, PUT, etc.
 
-```
+```html
 <a href="/delete-user?userId=33">Delete user</a>
 ```
 
@@ -97,7 +97,7 @@ Always think from a perspective of an attacker
 
 #### CSRF
 
-```
+```html
 <form action="/add-user" method="POST">
   <input name="new-user-email" type="email">
   <input type="submit" value="add">
