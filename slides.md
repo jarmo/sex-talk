@@ -157,7 +157,29 @@ public class ArticlesController {
 
 ----
 
-#### Explicit Configuration
+#### Insecure API-s
+
+```java
+public class OAuthController {
+
+  public static Result checkToken(Long clientId,
+                                  String clientSecret,
+                                  String redirectUri) {
+    OAuthClient client = OAuthClientRepository.get(clientId);
+
+    if (client.secret != clientSecret)
+      throw new RuntimeError("invalid secret");
+
+    if (client.redirectUri != redirectUri)
+      throw new RuntimeError("invalid redirect uri");
+  }
+
+}
+```
+
+----
+
+#### Implicit Configuration
 
 ```
 # catch-all routes
@@ -168,7 +190,7 @@ public class ArticlesController {
 
 ----
 
-#### Unsecure defaults
+#### Insecure defaults
 
 ```java
 configuration.getString("secret", "a267bce1872...")
@@ -206,11 +228,11 @@ application.secret="f4f7edabc88b0de0b15bec67f2ed6b72ce4"
 
 ----
 
-* Humans will be the weakest link - if not you then someone else
+* Humans (including developers) will be the weakest link - if not you then someone else
 
 ----
 
-* E-mail is unsecure and easy to fake
+* E-mail is insecure and easy to spoof
 
 ----
 
@@ -222,7 +244,7 @@ application.secret="f4f7edabc88b0de0b15bec67f2ed6b72ce4"
 
 ----
 
-* Unsecure session cookie
+* Insecure session cookie
 
 ----
 
